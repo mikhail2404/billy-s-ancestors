@@ -9,12 +9,12 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import XIcon from '@mui/icons-material/X';
 
 const inter = Inter({ subsets: ["latin"] });
-const tokenName = "Ziggy".toUpperCase()
-const tokenCA = "CN5hn4QsRBqe2Gg91LHyDssJW51qBNS5evK5FoHLpump"
-const tokenCode = "$Ziggy"
-const telegramLink = "https://t.me/+fArhHOZqAXxmZTg6"
+const tokenName = "Owchi".toUpperCase()
+const tokenCA = "Bt2EpNLqxMMGw5unGDuBvNkV7Lkiw2vFBKu5Kn3hpump"
+const tokenCode = "$OWCHI"
+const telegramLink = "https://t.me/+v9T43k_hjf40ODMy"
 const twitterLink = "#"
-const pumpFunLink = "https://www.pump.fun/CN5hn4QsRBqe2Gg91LHyDssJW51qBNS5evK5FoHLpump"
+const pumpFunLink = "https://www.pump.fun/Bt2EpNLqxMMGw5unGDuBvNkV7Lkiw2vFBKu5Kn3hpump"
 export default function Home() {
 
     const [copySuccess, setCopySuccess] = React.useState("");
@@ -62,7 +62,7 @@ export default function Home() {
             </nav>
         </header>
         <main>
-            <p className="intro">Hello, I'm {tokenName}, <br/> little cat on <span>Solana</span> .</p>
+            <p className="intro">Hello, I'm {tokenName}, <br/> little owl on <span>Solana</span> .</p>
             <div className={"image-container"}>
                 <SolanaIcon/>
                 <Image src="/token.jpeg" alt={"token-image"} width={300} height={400}/>
