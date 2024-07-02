@@ -9,12 +9,12 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import XIcon from '@mui/icons-material/X';
 
 const inter = Inter({ subsets: ["latin"] });
-const tokenName = "Billy's ancestors".toUpperCase()
-const tokenCA = "A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pum"
-const tokenCode = "$BA"
-const telegramLink = "https://t.me/+8T6op8P65D9lZWE1"
-const twitterLink = "https://x.com/bokittensol"
-const pumpFunLink = "https://pump.fun/6GuKtmMqk7oyJqf5kg3QBMSQVLypBLZQPcqWMy95pump"
+const tokenName = "Dobby the dog".toUpperCase()
+const tokenCA = "DnPzC8aT4dsGcRe5tHtiM7Tr7uVytEzZMNXZA3YYpump"
+const tokenCode = "$Dobby"
+const telegramLink = "https://t.me/+K4Yxfva791dkMWMy"
+const twitterLink = "#"
+const pumpFunLink = "https://pump.fun/DnPzC8aT4dsGcRe5tHtiM7Tr7uVytEzZMNXZA3YYpump"
 export default function Home() {
 
     const [copySuccess, setCopySuccess] = React.useState("");
@@ -33,7 +33,7 @@ export default function Home() {
         <title>{tokenCode.substring(1)} on Solano</title>
         <meta name="description" content={tokenName} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/token.png" />
+        <link rel="icon" href="/token.jpeg" />
       </Head>
         <header>
             <Marquee className={"running"} autoFill={true}
@@ -62,10 +62,10 @@ export default function Home() {
             </nav>
         </header>
         <main>
-            <p className="intro">Hello, I'm {tokenName}, <br/> meme token on <span>Solana</span> .</p>
+            <p className="intro">Hello, I'm {tokenName}, <br/> little dog on <span>Solana</span> .</p>
             <div className={"image-container"}>
                 <SolanaIcon/>
-                <Image src="/token.png" alt={"token-image"} width={300} height={400}/>
+                <Image src="/token.jpeg" alt={"token-image"} width={300} height={400}/>
                 <SolanaIcon/>
             </div>
             <div id={"ca"} className="caBtn">
