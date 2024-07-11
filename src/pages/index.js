@@ -9,12 +9,12 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import XIcon from '@mui/icons-material/X';
 
 const inter = Inter({ subsets: ["latin"] });
-const tokenName = "Owchi".toUpperCase()
-const tokenCA = "Bt2EpNLqxMMGw5unGDuBvNkV7Lkiw2vFBKu5Kn3hpump"
-const tokenCode = "$OWCHI"
-const telegramLink = "https://t.me/+v9T43k_hjf40ODMy"
-const twitterLink = "#"
-const pumpFunLink = "https://www.pump.fun/Bt2EpNLqxMMGw5unGDuBvNkV7Lkiw2vFBKu5Kn3hpump"
+const tokenName = "GUCCI".toUpperCase()
+const tokenCA = "DUa3AK4JNhw3sqZSUvVBUxXj9eAHXg5GtuB6c2Wipump"
+const tokenCode = "$GUCCI"
+const telegramLink = "https://t.me/GucciCtoPortal"
+const twitterLink = "https://x.com/Gucci_cto_sol"
+const pumpFunLink = "https://pump.fun/DUa3AK4JNhw3sqZSUvVBUxXj9eAHXg5GtuB6c2Wipump"
 export default function Home() {
 
     const [copySuccess, setCopySuccess] = React.useState("");
@@ -62,7 +62,7 @@ export default function Home() {
             </nav>
         </header>
         <main>
-            <p className="intro">Hello, I'm {tokenName}, <br/> little owl on <span>Solana</span> .</p>
+            <p className="intro">Hello, I'm {tokenName}, <br/> join Gucci Gang on <span>Solana</span> .</p>
             <div className={"image-container"}>
                 <SolanaIcon/>
                 <Image src="/token.jpeg" alt={"token-image"} width={300} height={400}/>
@@ -78,7 +78,7 @@ export default function Home() {
                 {copySuccess && (<p>Contract Address {copySuccess}</p>)}
             </div>
             <div id="buy"  className={"buy"}>
-                <p className="buy-heading">To buy $LIBO follow these simple steps :</p>
+                <p className="buy-heading">To buy {tokenCode} follow these simple steps :</p>
                 <div className='buy-info'>
                     <div className="buy-item">
                         <span className="itemText">Step 1 : Get yourself some $SOL on the {" "}
